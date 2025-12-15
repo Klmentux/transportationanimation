@@ -1,0 +1,197 @@
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+    color: blue;
+
+}
+.SkyeImage{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+.IlustrationScene{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 50px;
+}
+
+.RoadImage{
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    z-index: 2;
+    top: 320px;
+}
+
+.RoadImage1{
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    z-index: 2;
+    top: 490px;
+}
+.StreetLightImage{
+    position: absolute;
+    height: 200px;
+    z-index: 3;
+    top: 280px;
+}
+.StreetLightImage1{
+    position: absolute;
+    height: 200px;
+    z-index: 3;
+    top: 280px;
+    left: 350px;
+}
+
+.StreetLightImage2{
+    position: absolute;
+    height: 200px;
+    z-index: 3;
+    top: 280px;
+    left: 830px;
+}
+
+.OneWaySignImage{
+    position: absolute;
+    height: 240px;
+    z-index: 3;
+    top: 280px;
+    left: 1250px;
+}
+
+.birdsImage{
+    position: absolute;
+    height: 70px;
+    z-index: 4;
+    top: 100px;
+    left: 230px;
+}
+
+.birdsImage1{
+    position: absolute;
+    height: 70px;
+    z-index: 4;
+    top: 100px;
+    left: 820px;
+}
+
+.birdsImage2{
+    position: absolute;
+    height: 70px;
+    z-index: 4;
+    top: 100px;
+    left: 1250px;
+}
+
+.AeroplaneImage{
+    position: absolute;
+    height: 100px;
+    z-index: 5;
+    top: 60px;
+    left: 1300px;
+    animation: LeftToRightMovement 1.6s linear infinite;
+}
+
+.AeroplaneImage1{
+    position: absolute;
+    height: 200px;
+    z-index: 5;
+    top: 60px;
+    left: 1000px;
+    animation: LeftToRightMovement 5s linear infinite;
+}
+
+.CarImage1{
+    position: absolute;
+    width: 10%;
+    z-index: 5;
+    top: 300px;
+    left: 10px;
+    animation: RightToLeftMovement 6s linear infinite;
+}
+
+.CarImage2{
+    position: absolute;
+    width: 10%;
+    z-index: 5;
+    top: 320px;
+    left: 200px;
+    animation: RightToLeftMovement 1.5s linear infinite;
+
+}
+.CarImage3{
+    position: absolute;
+    width: 10%;
+    z-index: 5;
+    top: 315px;
+    left: 800px;
+    animation: RightToLeftMovement 3s linear infinite;
+}
+
+.MotorImage1{
+    position: absolute;
+    width: 10%;
+    z-index: 5;
+    top: 420px;
+    left: 1250px;
+    animation: RightToLeftMovement 4s linear infinite;
+}
+
+.MotorImage2{
+    position: absolute;
+    width: 10%;
+    z-index: 5;
+    top: 470px;
+    left: 1400px;
+    animation: LeftToRightMovement 1.5s linear infinite;
+}
+.MotorImage3{
+    position: absolute;
+    width: 10%;
+    z-index: 5;
+    top: 320px;
+    left: 1200px;
+    animation: LeftToRightMovement 2s linear infinite;
+}
+.MotorImage4{
+    position: absolute;
+    width: 10%;
+    z-index: 5;
+    top:450px;
+    left: 1590px;
+ animation: LeftToRightMovement 3s linear infinite;
+}
+
+@keyframes LeftToRightMovement{
+    from{ transform: translate(0px,0px);}
+    to{transform: translate(-1500px, 0px);}
+}
+
+
+
+.MotorImage5{
+    position: absolute;
+    width: 10%;
+    z-index: 5;
+    top: 470px;
+    left: 20px;
+    animation: RightToLeftMovement 10s linear infinite;
+}
+
+@keyframes RightToLeftMovement{
+    from{ transform: translate(0px,0px);}
+    to{transform: translate(1500px, 0px);}
+}
