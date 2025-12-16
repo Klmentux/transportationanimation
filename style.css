@@ -13,21 +13,21 @@ h1{
     color: blue;
 
 }
-.SkyeImage{
+.skyeimage{
     display: block;
     position: relative;
     width: 100%;
     height: 200px;
 }
 
-.IlustrationScene{
+.ilustrationscene{
     position: absolute;
     width: 100%;
     z-index: 1;
     top: 50px;
 }
 
-.RoadImage{
+.roadimage{
     position: absolute;
     width: 100%;
     height: 130px;
@@ -35,20 +35,21 @@ h1{
     top: 320px;
 }
 
-.RoadImage1{
+.roadimage1{
     position: absolute;
     width: 100%;
     height: 130px;
     z-index: 2;
     top: 490px;
+    left: 0px;
 }
-.StreetLightImage{
+.streetlightimage{
     position: absolute;
     height: 200px;
     z-index: 3;
     top: 280px;
 }
-.StreetLightImage1{
+.streetlightimage1{
     position: absolute;
     height: 200px;
     z-index: 3;
@@ -56,7 +57,7 @@ h1{
     left: 350px;
 }
 
-.StreetLightImage2{
+.streetlightimage2{
     position: absolute;
     height: 200px;
     z-index: 3;
@@ -64,7 +65,7 @@ h1{
     left: 830px;
 }
 
-.OneWaySignImage{
+.oneWaysignimage{
     position: absolute;
     height: 240px;
     z-index: 3;
@@ -72,7 +73,7 @@ h1{
     left: 1250px;
 }
 
-.birdsImage{
+.birdsimage{
     position: absolute;
     height: 70px;
     z-index: 4;
@@ -80,7 +81,7 @@ h1{
     left: 230px;
 }
 
-.birdsImage1{
+.birdsimage1{
     position: absolute;
     height: 70px;
     z-index: 4;
@@ -88,7 +89,7 @@ h1{
     left: 820px;
 }
 
-.birdsImage2{
+.birdsimage2{
     position: absolute;
     height: 70px;
     z-index: 4;
@@ -96,102 +97,102 @@ h1{
     left: 1250px;
 }
 
-.AeroplaneImage{
+.aeroplaneimage{
     position: absolute;
     height: 100px;
     z-index: 5;
     top: 60px;
     left: 1300px;
-    animation: LeftToRightMovement 1.6s linear infinite;
+    animation: lefttorightmovement 1.6s linear infinite;
 }
 
-.AeroplaneImage1{
+.aeroplaneimage1{
     position: absolute;
     height: 200px;
     z-index: 5;
     top: 60px;
     left: 1000px;
-    animation: LeftToRightMovement 5s linear infinite;
+    animation: lefttorightmovement 5s linear infinite;
 }
 
-.CarImage1{
+.carimage1{
     position: absolute;
     width: 10%;
     z-index: 5;
     top: 300px;
     left: 10px;
-    animation: RightToLeftMovement 6s linear infinite;
+    animation: righttoleftmovement 6s linear infinite;
 }
 
-.CarImage2{
+.carimage2{
     position: absolute;
     width: 10%;
     z-index: 5;
     top: 320px;
     left: 200px;
-    animation: RightToLeftMovement 1.5s linear infinite;
+    animation: righttoleftmovement 1.5s linear infinite;
 
 }
-.CarImage3{
+.carimage3{
     position: absolute;
     width: 10%;
     z-index: 5;
     top: 315px;
     left: 800px;
-    animation: RightToLeftMovement 3s linear infinite;
+    animation: righttoleftmovement 3s linear infinite;
 }
 
-.MotorImage1{
+.motorimage1{
     position: absolute;
     width: 10%;
     z-index: 5;
     top: 420px;
     left: 1250px;
-    animation: RightToLeftMovement 4s linear infinite;
+    animation: righttoleftmovement 4s linear infinite;
 }
 
-.MotorImage2{
+.motorimage2{
     position: absolute;
     width: 10%;
     z-index: 5;
     top: 470px;
     left: 1400px;
-    animation: LeftToRightMovement 1.5s linear infinite;
+    animation: lefttorightmovement 1.5s linear infinite;
 }
-.MotorImage3{
+.motorimage3{
     position: absolute;
     width: 10%;
     z-index: 5;
     top: 320px;
     left: 1200px;
-    animation: LeftToRightMovement 2s linear infinite;
+    animation: lefttorightmovement 2s linear infinite;
 }
-.MotorImage4{
+.motorimage4{
     position: absolute;
     width: 10%;
     z-index: 5;
     top:450px;
     left: 1590px;
- animation: LeftToRightMovement 3s linear infinite;
+ animation: lefttorightmovement 3s linear infinite;
 }
 
-@keyframes LeftToRightMovement{
+@keyframes lefttorightmovement{
     from{ transform: translate(0px,0px);}
     to{transform: translate(-1500px, 0px);}
 }
 
 
 
-.MotorImage5{
+.motorimage5{
     position: absolute;
     width: 10%;
     z-index: 5;
     top: 470px;
     left: 20px;
-    animation: RightToLeftMovement 10s linear infinite;
+    animation: righttoleftmovement 10s linear infinite;
 }
 
-@keyframes RightToLeftMovement{
+@keyframes righttoleftmovement{
     from{ transform: translate(0px,0px);}
     to{transform: translate(1500px, 0px);}
 }
